@@ -1,0 +1,6 @@
+#!/bin/bash
+
+until python3 FaceMatchServer.py; do
+  echo "Crashed..."
+  sleep 1
+done
